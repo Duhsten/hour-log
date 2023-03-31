@@ -171,22 +171,4 @@ function biWeeklyReportHtml() {
       }
       
 
-function main() {
-  const action = process.argv[2];
 
-  switch (action) {
-    case 'in':
-      clockIn();
-      break;
-    case 'out':
-      clockOut();
-      break;
-    case 'report':
-      biWeeklyReport();
-      break;
-    default:
-      console.log('Usage: node payroll.js <in|out|report>');
-  }
-}
-
-main();

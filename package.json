@@ -1,0 +1,26 @@
+{
+  "name": "hour-log",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hourlog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duhsten/hour-log.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Duhsten/hour-log/issues"
+  },
+  "homepage": "https://github.com/Duhsten/hour-log#readme",
+  "dependencies": {
+    "cli-table": "^0.3.11",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "puppeteer": "^19.8.2"
+  }
+}
